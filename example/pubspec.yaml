@@ -11,8 +11,11 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^0.1.2
 
-  latlong: ">=0.6.0"
-  flutter_map: ">=0.8.0 <1.0.0"
+  latlong2: ^0.8.0
+  flutter_map:
+    git:
+      url: https://github.com/manle93/flutter_map.git
+      ref: master
   flutter_map_marker_popup:
     path: ../
 
